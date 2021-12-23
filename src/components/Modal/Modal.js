@@ -4,8 +4,6 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
 import axios from "axios";
 import { YouTube } from "@material-ui/icons";
 import './Modal.css'
@@ -15,12 +13,6 @@ import {
   unavailable,
   unavailableLandscape,
 } from "../../config/config";
-
-const darkTheme = createTheme({
-  palette: {
-    mode: "dark",
-  },
-});
 
 const style = {
   width: "90%",

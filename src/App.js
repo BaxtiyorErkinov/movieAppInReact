@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
 import SimpleBottomNavigation from './components/MainNav.js';
@@ -10,7 +10,6 @@ import Search from './pages/Search/Search';
 import Container from '@mui/material/Container';
 
 function App() {
-  const [hello, setHello] = useState(false);
   return (
     <Router>
       <Header />

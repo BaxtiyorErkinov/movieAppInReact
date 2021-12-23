@@ -2,7 +2,6 @@ import React from "react";
 import { img_300, unavailable } from "../../config/config";
 import "./SingleContent.css";
 import Badge from '@mui/material/Badge';
-import { Mail } from '@material-ui/icons';
 import Modal from '../Modal/Modal'
 const Singlecontent = ({
   id,
